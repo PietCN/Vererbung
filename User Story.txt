@@ -1,0 +1,29 @@
+User Story
+
+Aufgabe: Klassenhierarchie aufbauen
+
+Klasse Figur
+	* Farbe
+	* Show()
+
+Klasse Kreis : Figur
+	* Radius
+
+Klasse Rechteck : Figur
+	* Länge, Breite
+
+Klasse Ring : Kreis
+	* innenRadius, aussenRadius
+
+Klasse Parallelogram : Rechteck
+	* Länge, Breite, Winkel
+
+Klasse Ellipse : Kreis
+	* Radius
+	* Stauchungsfaktor
+	* Winkel
+
+Anforderung:
+	* Die Klassenspezifischen Felder müssen Initialisiert werden (Basisklassen Felder verwenden!)
+	* Die Methode Show() muss für jede Klasse die entsprechende Werte ausgeben
+	* Ein Array erstellen vom Typ Figur in dem mehrere abgeleitete Figuren von Figur hinzugefügt werden und die Methode Show() ausgeführt wird.

@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vererbung", "Vererbung.csproj", "{42BA67FD-1241-4204-9CC2-1E3F99A869A4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5497A84B-8D4F-4670-A31D-42504B0E8EE5}"
+	ProjectSection(SolutionItems) = preProject
+		User Story.txt = User Story.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
