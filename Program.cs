@@ -4,6 +4,8 @@ class Program
 {
   static void Main()
   {
+    Stack<Figur> figurenStack = new Stack<Figur>();
+
     Figur[] figuren = new Figur[10];
 
     figuren[0] = new Kreis("blau", 3.0);
@@ -19,7 +21,20 @@ class Program
 
 
     foreach (Figur fig in figuren)
-      fig.Show();
+      figurenStack.Push(fig);
+
+    Figur.zeigeZaehler();
+    Console.WriteLine("Momentane Stackgröße: " + figurenStack.Count);
+    Console.WriteLine("Ausgabe: ");
+    
+    for (uint i = figurenStack.Count; i != 0; --i )
+    {
+      Console.Write(i + ") ");
+      figurenStack.Pop().Show();
+    }
+
+    Figur.zeigeZaehler();
+    Console.WriteLine("Momentane Stackgröße: " + figurenStack.Count);
 
     Console.ReadKey();
   }
