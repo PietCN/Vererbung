@@ -2,7 +2,7 @@
 public abstract class Figur
 {
   //Felder
-  string Farbe;
+  protected string Farbe;
 
   public Figur(string Farbe)
   {

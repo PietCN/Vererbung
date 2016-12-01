@@ -10,6 +10,8 @@ Status:
 
 Klasse Kreis : Figur
 	* Radius
+Status:
+	* Erledigt
 
 Klasse Rechteck : Figur
 	* Länge, Breite
