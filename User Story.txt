@@ -15,9 +15,13 @@ Status:
 
 Klasse Rechteck : Figur
 	* Länge, Breite
+Status:
+	* Erledigt
 
 Klasse Ring : Kreis
 	* innenRadius, aussenRadius
+Status:
+	* Erledigt
 
 Klasse Parallelogram : Rechteck
 	* Länge, Breite, Winkel
