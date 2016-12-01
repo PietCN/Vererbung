@@ -5,6 +5,8 @@ Aufgabe: Klassenhierarchie aufbauen
 Klasse Figur
 	* Farbe
 	* Show()
+Status:
+	* Erledigt
 
 Klasse Kreis : Figur
 	* Radius
