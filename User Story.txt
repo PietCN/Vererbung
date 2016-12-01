@@ -39,3 +39,7 @@ Anforderung:
 	* Die Klassenspezifischen Felder müssen Initialisiert werden (Basisklassen Felder verwenden!)
 	* Die Methode Show() muss für jede Klasse die entsprechende Werte ausgeben
 	* Ein Array erstellen vom Typ Figur in dem mehrere abgeleitete Figuren von Figur hinzugefügt werden und die Methode Show() ausgeführt wird.
+Status:
+	* Array mit 10 Instanzen erstellt und initialisiert
+	* Test erfolgreich
+	* Erledigt
