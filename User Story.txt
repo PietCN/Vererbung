@@ -25,11 +25,15 @@ Status:
 
 Klasse Parallelogram : Rechteck
 	* Länge, Breite, Winkel
+Status:
+	* Erledigt
 
 Klasse Ellipse : Kreis
 	* Radius
 	* Stauchungsfaktor
 	* Winkel
+Status:
+	* Entfällt erstmal, implemantation folgt evt. später
 
 Anforderung:
 	* Die Klassenspezifischen Felder müssen Initialisiert werden (Basisklassen Felder verwenden!)
